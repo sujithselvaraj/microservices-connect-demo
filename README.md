@@ -4,7 +4,8 @@ Creating the project refer https://maven.apache.org/guides/getting-started/maven
 
 Creating a maven module inside the parent project 
 
-Use a docker-compose file and route to the https://localhost:5050 to host the pg admin4 in the safari or your browser
+Use a docker-compose file and route to the https://localhost:5050 to host the pg admin4 in the safari or your browser .Before that make sure that you have 
+your docker running in the local machine.
 
 Refer to the pom.xml for the dependencies and refersh the maven folder to check the dependencies if they are installed
 
@@ -17,3 +18,6 @@ After the completion of the project go and hit the postman with http://localhost
 } 
 
 and check the tables in both customer and fraud table.
+
+
+Use the https://devops.datenkollektiv.de/banner.txt/index.html to generate a banner.txt file .
