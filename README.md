@@ -8,3 +8,12 @@ Use a docker-compose file and route to the https://localhost:5050 to host the pg
 
 Refer to the pom.xml for the dependencies and refersh the maven folder to check the dependencies if they are installed
 
+After the completion of the project go and hit the postman with http://localhost:8080/api/v1/customers with the post request with the raw body 
+
+{
+    "firstName":"Sujith",
+    "lastName":"Selva",
+    "email":"sujith@gmail.com"
+} 
+
+and check the tables in both customer and fraud table.
